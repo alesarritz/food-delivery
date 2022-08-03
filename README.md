@@ -10,7 +10,7 @@
 attended during the BSc in Computer Engineering at Polytechnic of Turin. </p>
 
 <p>All classes are contained in the package <b>delivery</b>. The main class is <b>Delivery</b>.
-The class TestApp <b>TestApp</b> in the package <b>testDelivery</b> contains an example of use of the Delivery class. 
+The class TestApp <b>TestApp</b> in the package <b>test</b> contains an example of use of the Delivery class. 
 Exceptions are generated through the class  <b>DeliveryException</b>.
 </p>
 
