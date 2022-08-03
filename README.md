@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>&#127789; Food Delivery</h1>
 
----
+<h1>&#127789; Food Delivery</h1>
 
 <p>The program implements the back-end of a food delivery system. </p>
 
@@ -16,8 +15,6 @@ Exceptions are generated through the class  <b>DeliveryException</b>.
 </p>
 
 <h2>Restaurants</h2>
-
----
 
 <p>The restaurants that use the Delivero service are labeled with a category (e.g., traditional, 
 fast food, ethnic, chinese, etc.). The method <b>addCategory(String category)</b> enables to 
@@ -36,8 +33,6 @@ restaurants in the selected category or the category does not exist.</p>
 
 
 <h2>Dishes</h2>
-
----
 
 <p>
 The method <b>addDish(String name, String restaurantName, float price)</b> adds a dish to the 
@@ -63,8 +58,6 @@ there are no dishes in the category the method must return and empty list.</p>
 
 
 <h2>Orders</h2>
-
----
 
 <p>The method <b>addOrder(String dishName[], int quantity[], String customerName, String 
 restaurantName, int deliveryTime, int deliveryDistance)</b> creates a delivery order. 
@@ -93,8 +86,6 @@ The method <b>getPendingOrders()</b> returns the number of orders that still nee
 
 <h2>Ratings</h2>
 
----
-
 <p>The method <b>setRatingForRestaurant(String restaurantName, int rating)</b> 
 records a rating (a number between 0 and 5, boundaries included) of a restaurant. 
 Ratings outside the valid range are discarded.</p>
@@ -106,8 +97,6 @@ If a restaurant received no rating, it does not appear in the list.</p>
 
 
 <h2>Stats</h2>
-
----
 
 <p>The method <b>ordersPerCategory()</b> returns a map associating each category to the number of 
 orders placed to restaurants in that category. Also categories that have not received orders 
