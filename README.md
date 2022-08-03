@@ -4,7 +4,7 @@
 
 <h1>&#127789; Food Delivery</h1>
 
-<p>The program implements the back-end of a food delivery system. </p>
+<p>The program implements the back-end of a food delivery system using Java. </p>
 
 <p> It constitutes my solution to a coding exercise of the Object Oriented Programming course I 
 attended during the BSc in Computer Engineering at Polytechnic of Turin. </p>
